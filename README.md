@@ -1,6 +1,7 @@
 # XYQUEUE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Go Reference](https://pkg.go.dev/badge/github.com/xyhelper/xyqueue.svg)](https://pkg.go.dev/github.com/xyhelper/xyqueue)
 
 一个用 Go 实现的泛型队列库，遵循先进先出（FIFO），可选“去重”模式（同一元素在队列中仅保留一次），并发安全，适合在任务调度、消息缓冲、去重队列等场景中使用。
 
